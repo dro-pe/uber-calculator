@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Calculadora de app de corridas</title>
+            <link href="css/calculadora-app.css" rel="stylesheet" type="text/css">
+            <script src="calculadora-app.js"></script>
+        </head>
+        <body>
+            <div class="headline">
+                <h1>Calcule o preço da sua corrida</h1>
+            </div>
+            <div class="formulario">
+                <label for="km">Quantos quilômetros você vai andar?</label> <br>
+                <input id="km"> <br>
+
+                <label for="min">Quantos minutos você estima que a sua corrida vai durar?</label> <br>
+                <input id="min"> <br>
+
+                <label for="combustivel">Quanto você paga pelo litro de combustível?</label> <br>
+                <input id="combustivel"> <br>
+
+                <label for="kmPorLitro">Por fim, quantos quilômetros por litro o seu carro faz?</label> <br>
+                   <input id="kmPorLitro"> <br>
+            </div> 
+            <br>
+            <button onclick="calcularPreco()">Calcule o preço da corrida!</button>
+
+            <div class="resultado">
+                <p id="resultadoFinal"></p>
+            </div>
+        </body>
+    </html>
